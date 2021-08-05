@@ -1,4 +1,4 @@
-const UsersEstablishment = require('../models/UsuarioEstablishment')
+const UsersEstablishment = require('../models/UsersEstablishment')
 
 module.exports = {
     async store(req, res){

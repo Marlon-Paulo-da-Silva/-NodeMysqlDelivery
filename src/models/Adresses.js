@@ -13,7 +13,7 @@ class Adresses extends Model {
     }
 
     static associate(models) {
-        this.belongsTo(models.UsersEstablishment, {foreignKey: 'user_estabishment_id', as: 'owner'})
+        this.belongsTo(models.UsersEstablishment, {foreignKey: 'user_establishment_id', as: 'owner'})
     }
 }
 
